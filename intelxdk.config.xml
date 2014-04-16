@@ -96,7 +96,9 @@
     
 <!-- Plugins -->
 
-    <!-- Standard Cordova Plugins -->
+    <!-- Core Cordova Plugins -->
+    <!-- include only those your app requires to eliminate unnecessary app permissions -->
+    <!-- to avoid duplication between Intel XDK plugins and Cordova plugins, use whichever works best for your app -->
     <intelxdk:plugin intelxdk:name="Accelerometer" intelxdk:value="org.apache.cordova.device-motion" />
     <intelxdk:plugin intelxdk:name="Battery Status" intelxdk:value="org.apache.cordova.battery-status" />
     <intelxdk:plugin intelxdk:name="Camera" intelxdk:value="org.apache.cordova.camera" />
@@ -114,6 +116,25 @@
     <intelxdk:plugin intelxdk:name="Vibration" intelxdk:value="org.apache.cordova.vibration" />
     <intelxdk:plugin intelxdk:name="Splash Screen" intelxdk:value="org.apache.cordova.splashscreen" />
 
-    <!-- Add any other 3rd party Cordova Plugins -->
+    <!-- Intel XDK API Plugins -->
+    <!-- include only those your app requires to eliminate unnecessary app permissions -->
+    <!-- to avoid duplication between Intel XDK plugins and Cordova plugins, use whichever works best for your app -->
+    <intelxdk:plugin intelxdk:name="Base" intelxdk:value="IntelXDKBase" />
+    <intelxdk:plugin intelxdk:name="Acceleration" intelxdk:value="intel.xdk.acceleration" />
+    <intelxdk:plugin intelxdk:name="Audio" intelxdk:value="intel.xdk.audio" />
+    <intelxdk:plugin intelxdk:name="Cache" intelxdk:value="intel.xdk.cache" />
+    <intelxdk:plugin intelxdk:name="Camera" intelxdk:value="intel.xdk.camera" />
+    <intelxdk:plugin intelxdk:name="Contacts" intelxdk:value="intel.xdk.contacts" />
+    <intelxdk:plugin intelxdk:name="Debug" intelxdk:value="intel.xdk.debug" />
+    <intelxdk:plugin intelxdk:name="Facebook" intelxdk:value="intel.xdk.facebook" >
+        <intelxdk:param intelxdk:name="FBAPPID" intelxdk:value="123###abc" />
+    </intelxdk:plugin>
+    <intelxdk:plugin intelxdk:name="File" intelxdk:value="intel.xdk.file" />
+    <intelxdk:plugin intelxdk:name="Geolocation" intelxdk:value="intel.xdk.geolocation" />
+    <intelxdk:plugin intelxdk:name="Notification" intelxdk:value="intel.xdk.notification" />
+    <intelxdk:plugin intelxdk:name="OAuth" intelxdk:value="intel.xdk.oauth" />
+    <intelxdk:plugin intelxdk:name="Player" intelxdk:value="intel.xdk.player" />
+
+    <!-- 3rd-party Cordova Plugins (compatible with Cordova 3.x) -->
 
 </widget>

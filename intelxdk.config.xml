@@ -125,14 +125,12 @@
     <intelxdk:plugin intelxdk:name="Cache" intelxdk:value="intel.xdk.cache" />
     <intelxdk:plugin intelxdk:name="Camera" intelxdk:value="intel.xdk.camera" />
     <intelxdk:plugin intelxdk:name="Contacts" intelxdk:value="intel.xdk.contacts" />
-    <intelxdk:plugin intelxdk:name="Debug" intelxdk:value="intel.xdk.debug" />
     <intelxdk:plugin intelxdk:name="Facebook" intelxdk:value="intel.xdk.facebook" >
-        <intelxdk:param intelxdk:name="FBAPPID" intelxdk:value="123###abc" />
+        <intelxdk:param intelxdk:name="FBAPPID" intelxdk:value="123###abc###456" />
     </intelxdk:plugin>
     <intelxdk:plugin intelxdk:name="File" intelxdk:value="intel.xdk.file" />
     <intelxdk:plugin intelxdk:name="Geolocation" intelxdk:value="intel.xdk.geolocation" />
     <intelxdk:plugin intelxdk:name="Notification" intelxdk:value="intel.xdk.notification" />
-    <intelxdk:plugin intelxdk:name="OAuth" intelxdk:value="intel.xdk.oauth" />
     <intelxdk:plugin intelxdk:name="Player" intelxdk:value="intel.xdk.player" />
 
     <!-- 3rd-party Cordova Plugins (compatible with Cordova 3.x) -->
